@@ -50,12 +50,20 @@
 
 <!DOCTYPE html>
 <html>
-   <body>
+   <body onload="rn()">
       <p>
          <strong>Ikea Gang</strong>
       </p>
-      <audio autoplay loop>
+      <script>
+         function rn(){
+            alert("Just turn back")
+         }
+      </script>
+      <audio controls autoplay loop>
          <source src="song.mp3" type="audio/mpeg">
+      </audio>
+      <audio controls>
+         <source src="/Songs/1.mp3" type="audio/mpeg">
       </audio>
    </body>
 </html>
